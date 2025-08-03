@@ -1,0 +1,33 @@
+#nosotros {
+  margin-top: 5rem;
+}
+
+.nosotros-content {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  background-image: url(../assets/img/nosotros.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+@media (min-width: 992px) {
+  .nosotros-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.nosotros-text {
+  background-color: var(--blanco);
+  padding: 3.5rem;
+}
+
+@media (min-width: 992px) {
+  .nosotros-text {
+    grid-column: 2/4;
+  }
+}
+
+.nosotros-text h2,
+.nosotros-text p {
+  margin-bottom: 1rem;
+}

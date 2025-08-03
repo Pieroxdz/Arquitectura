@@ -1,0 +1,20 @@
+#footer{
+    margin-top: 5rem;
+    height: 50rem;
+    background-image: url(../assets/img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: var(--blanco);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.copyright{
+    background-color: var(--negro);
+    text-align: center;
+    margin: 5rem 0 0 0 ;
+    padding: 1rem;
+}
